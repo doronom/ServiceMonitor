@@ -1,0 +1,55 @@
+body {
+  margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+.service-list {
+    margin: 0 auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
+  }
+  
+  .service-list::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    max-width: none; 
+    overflow: auto; 
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  td {
+    white-space: nowrap;
+  }
+  
+  /* Add styles for online and offline badges */
+  .badge-online {
+    background-color: green;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  .badge-offline {
+    background-color: red;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  

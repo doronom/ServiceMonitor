@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.service {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
