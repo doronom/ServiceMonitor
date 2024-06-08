@@ -6,7 +6,7 @@ const { PrismaClient } = require('@prisma/client');
 
 const app = express();
 const port = process.env.PORT || 3000;
-const slackWebhookURL = "https://hooks.slack.com/services/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";
+const slackWebhookURL = "YOUR SLACK WEBHOOK URL";
 const prisma = new PrismaClient();
 
 // Helper function to get the duration the service has been online
